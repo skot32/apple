@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #000;
+}
+.ul-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  width: 980px;
+  margin: auto;
+}
+.ul-header li a {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.5;
+}
+.ul-header li a:hover {
+  opacity: 1;
+}
+.ul-header li img {
+  width: 18px;
+}
+.section-one {
+  background-color: white;
+  text-align: center;
+}
+.learn-more li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 15px;
+}
+.learn-more a {
+  color: blue;
+  text-decoration: none;
+}
+.section-two {
+  background-image: url(../../images/home/iphone11-pro-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: cornsilk;
+  height: 580px;
+}
+.section-three {
+  background-image: url(../../images/home/iphone11-bg.jpg);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+}
+.section-four {
+  display: flex;
+  justify-content: space-between;
+}
+.div-4left {
+  background-image: url(../../images/home/watch-series-5.jpg);
+  height: 580px;
+  width: 49%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.div-4right {
+  background-image: url(../../images/home/apple-card.jpg);
+
+  height: 580px;
+  width: 49%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.section-five {
+  display: flex;
+  justify-content: space-between;
+}
+.section-five .div-4left {
+  background-image: url(../../images/home/apple-tv-background.jpg);
+}
+.section-five .div-4right {
+  background-image: url(../../images/home/air-pods.jpg);
+  background-position: center;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: #ffffff;
+}
+.section-six {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-six .div-4left {
+  background-image: url(../../images/home/macbook-pro.jpg);
+
+  background-position: bottom;
+  background-size: inherit;
+  background-repeat: no-repeat;
+}
+
+.section-six .div-4right {
+  background-image: url(../../images/home/new-ipad.jpg);
+}
+.footer-one {
+  border-bottom: 1px solid cornflowerblue;
+  padding: 17px 0 20px;
+  width: 980px;
+  margin: auto;
+}
+.footer-two {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  width: 980px;
+  margin: auto;
+  border-bottom: 1px solid cornflowerblue;
+}
+.footer-two li a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+}
+.footer-two li {
+  list-style: none;
+}
+.footer-two li a:hover {
+  text-decoration: underline;
+}
+.resume {
+  background-color: black;
+  border-radius: 20px;
+  width: 200px;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+.resume a {
+  color: #ffffff;
+  margin-left: 50px;
+  /* text-decoration: none; */
+  margin-bottom: 30px;
+  font-size: 20px;
+}
